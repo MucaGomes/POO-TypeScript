@@ -4,12 +4,12 @@ export class Cliente implements Pessoa{
     nome: string  = ""
     idade: number = 0
     cpf: string = ""
-
-    adotar(): void {
         
-    }
     exibirDados(): void {
-        throw new Error("Method not implemented.");
+        console.log("Nome: " + this.nome)
+        console.log("Idade: " + this.idade)
+        console.log("CPF: " + this.cpf)
+
     }
 
 

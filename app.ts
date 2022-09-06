@@ -49,6 +49,7 @@ if (resp == "S" || resp == "s") {
     console.clear()
 
     while (true) {
+        console.clear()
         console.log("=================================")
         console.log("|  Escolha o que deseja fazer   |")
         console.log("[1]Adotar um animal             |")
@@ -62,7 +63,6 @@ if (resp == "S" || resp == "s") {
             let opcao = Number(prompt("opção: "))
 
             if (opcao == 1) {
-                console.clear()
                 console.log("===================================")
                 console.log("Parabens Você adotou um cachorro!!!")
                 console.log("Cachorro: ")
@@ -155,9 +155,7 @@ if (resp == "S" || resp == "s") {
 
         } else if (resp == 2) {
             console.clear()
-            console.log("Nome: " + cliente1.nome)
-            console.log("Idade: " + cliente1.idade)
-            console.log("CPF: " + cliente1.cpf)
+            cliente1.exibirDados()
             break
         } else if (resp == 3) {
             break

@@ -4,7 +4,6 @@ export interface Pessoa {
     idade: number
     cpf: string
 
-    adotar(): void
     exibirDados(): void
 
 }
