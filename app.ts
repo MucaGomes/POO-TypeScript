@@ -41,11 +41,12 @@ if (resp == "S" || resp == "s") {
     let idade = Number(prompt("Digite sua idade: "))
     let cpf = prompt("Digite seu CPF: ")
 
-    let cliente1 = new Cliente()
+    let cliente1 = new Cliente(
+        nome,
+        idade,
+        cpf
+    )
 
-    cliente1.nome = nome
-    cliente1.idade = idade
-    cliente1.cpf = cpf
     console.clear()
 
     while (true) {
