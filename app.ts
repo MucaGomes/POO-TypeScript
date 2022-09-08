@@ -73,7 +73,7 @@ if (resp == "S" || resp == "s") {
                 while (true) {
                     console.log("===================================")
                     console.log("     O que deseja fazer agora?     ")
-                    console.log("[1]Fazer o cachorro correr")
+                    console.log("[1]Ver o cachorro correr")
                     console.log("[2]Ver o som que o cachorro faz")
                     console.log("[3]Sair")
                     console.log("=================================  ")
@@ -102,7 +102,7 @@ if (resp == "S" || resp == "s") {
                 while (true) {
                     console.log("===================================")
                     console.log("     O que deseja fazer agora?     ")
-                    console.log("[1]Fazer o cavalo correr")
+                    console.log("[1]Ver o cavalo correr")
                     console.log("[2]Ver o som que o cavalo faz")
                     console.log("[3]Sair")
                     console.log("=================================  ")
@@ -130,8 +130,8 @@ if (resp == "S" || resp == "s") {
                 while (true) {
                     console.log("===================================")
                     console.log("     O que deseja fazer agora?     ")
-                    console.log("[1]Fazer a preguiça correr")
-                    console.log("[2]Fazer a preguiça subir na árvore")
+                    console.log("[1]Ver a preguiça correr")
+                    console.log("[2]Ver a preguiça subir na árvore")
                     console.log("[3]Ver o som que a preguiça faz")
                     console.log("[4]Sair")
                     console.log("=================================  ")
