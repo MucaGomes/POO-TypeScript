@@ -7,5 +7,5 @@
   
 ##
 
-### Exercicio de TypeScript (Programação Orientada á Objetos)
+### Exercicio de TypeScript (Programação Orientada a Objetos)
   
